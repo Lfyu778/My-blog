@@ -1,0 +1,6 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+*.local
+.DS_Store
+VitePress博客从零到上线教程.md
