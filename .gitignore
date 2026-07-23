@@ -4,3 +4,5 @@ docs/.vitepress/cache/
 *.local
 .DS_Store
 VitePress博客从零到上线教程.md
+博客技术栈学习指南.md
+博客技术栈学习指南-新版.md
