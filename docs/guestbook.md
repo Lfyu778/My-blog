@@ -16,6 +16,6 @@ title: 留言板
 
 <style>
 .vp-doc .custom-block {
-  border-radius: 12px;
+  border-radius: 6px;
 }
 </style>

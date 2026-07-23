@@ -5,7 +5,7 @@ title: 关于
 # 关于我
 
 <div class="about-card">
-  <div class="about-avatar">👨‍💻</div>
+  <div class="about-avatar"></div>
   <div class="about-info">
     <h2>计算机专业学生</h2>
     <p>岭南师范学院 · 计算机科学</p>
@@ -36,7 +36,7 @@ title: 关于
 
 用 VitePress 搭建，Vercel 托管，纯静态、零成本。
 
-写博客的目的不是展示，而是**用输出倒逼输入**——把学到的东西用自己的话讲清楚，讲不清楚说明没真正理解。
+写博客的目的不是展示，而是**写下即是思考**——把学到的东西用自己的话讲清楚，讲不清楚说明没真正理解。
 
 ## 联系我
 
@@ -48,49 +48,45 @@ title: 关于
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 32px;
-  border-radius: 16px;
+  padding: 28px 32px;
+  border-radius: 6px;
   border: 1px solid var(--vp-c-border);
-  background: linear-gradient(135deg, var(--vp-c-bg-soft), var(--vp-c-bg));
+  border-left: 3px solid var(--vp-c-brand-2);
+  background: var(--vp-c-bg-soft);
   margin: 24px 0 32px;
 }
 .about-avatar {
-  font-size: 4rem;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--vp-c-brand-soft);
-  border-radius: 20px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--vp-c-bg) url('/avatar.jpg') center / cover no-repeat;
+  border: 2px solid var(--vp-c-border);
+  flex-shrink: 0;
 }
 .about-info h2 {
-  margin: 0 0 8px;
-  font-size: 1.3rem;
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+  font-family: var(--vp-font-family-heading);
+  font-weight: 600;
 }
 .about-info p {
-  margin: 4px 0;
+  margin: 3px 0;
   color: var(--vp-c-text-2);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 .tech-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   margin: 16px 0;
 }
 .tech-tag {
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.82rem;
   font-weight: 500;
   background: var(--vp-c-brand-soft);
   color: var(--vp-c-brand-1);
-  border: 1px solid transparent;
-  transition: all 0.2s;
-}
-.tech-tag:hover {
-  border-color: var(--vp-c-brand-2);
-  transform: translateY(-1px);
+  border: 1px solid var(--vp-c-border);
 }
 </style>
