@@ -89,8 +89,9 @@ export default defineConfig({
     lineNumbers: true
   },
 
-  // 字体预加载
+  // 字体预加载 + favicon
   head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     [
       'link',
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' }

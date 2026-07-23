@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c5c3b"/>
+      <stop offset="100%" style="stop-color:#558f65"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8d5a2;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#7bc47f;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="100" height="100" rx="18" fill="url(#bg)"/>
+  <!-- Stylized leaf / pen nib — represents blog + growth -->
+  <path d="M50 18 C50 18 30 32 28 52 C26 72 40 84 50 84 C60 84 74 72 72 52 C70 32 50 18 50 18Z" fill="url(#leafGrad)" opacity="0.95"/>
+  <!-- Center vein -->
+  <path d="M50 26 L50 78" stroke="#2c5c3b" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <!-- Small side veins -->
+  <path d="M50 42 Q42 38 38 40" stroke="#2c5c3b" stroke-width="1" fill="none" opacity="0.35"/>
+  <path d="M50 52 Q58 48 62 50" stroke="#2c5c3b" stroke-width="1" fill="none" opacity="0.35"/>
+  <path d="M50 62 Q44 58 40 60" stroke="#2c5c3b" stroke-width="1" fill="none" opacity="0.35"/>
+</svg>
