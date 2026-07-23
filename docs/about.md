@@ -21,15 +21,13 @@ title: 关于
 
 **技术栈：**
 
-<div class="tech-tags">
+<div class="tech-tags">  
+  <span class="tech-tag">JavaSE</span>
+  <span class="tech-tag">C/C++</span>
   <span class="tech-tag">Go</span>
   <span class="tech-tag">Python</span>
   <span class="tech-tag">TypeScript</span>
-  <span class="tech-tag">Vue</span>
-  <span class="tech-tag">PostgreSQL</span>
-  <span class="tech-tag">Docker</span>
-  <span class="tech-tag">VitePress</span>
-  <span class="tech-tag">LangChain</span>
+  <span class="tech-tag">MySQL</span>
 </div>
 
 ## 这个博客
