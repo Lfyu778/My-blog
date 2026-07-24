@@ -7,17 +7,19 @@ title: 关于
 <div class="about-card">
   <div class="about-avatar"></div>
   <div class="about-info">
-    <h2>计算机专业学生</h2>
-    <p>岭南师范学院 · 计算机科学</p>
-    <p>关注 AI Agent 开发、后端工程、前端技术</p>
+    <h2>罗非鱼778</h2>
+    <p>岭南师范学院 · 计算机科学与技术</p>
+    <p>关注 后端工程、AI Agent 开发等技术</p>
   </div>
 </div>
+
 
 ## 我在做什么
 
 **当前方向：** AI Agent 开发与后端工程
 
-正在探索大模型应用落地，从提示词工程到 RAG 检索增强，从单 Agent 到多智能体协作。同时夯实 CS 基础，为考研和就业做准备。
+正在探索大模型应用落地，从提示词工程到 RAG 检索增强，从单 Agent 到多智能体协作。
+努力学习go语言及相关后端技术栈，夯实自身基础。
 
 **技术栈：**
 
@@ -29,15 +31,15 @@ title: 关于
   <span class="tech-tag">TypeScript</span>
   <span class="tech-tag">MySQL</span>
 </div>
-
-## 这个博客
+## 博客本身
 
 用 VitePress 搭建，Vercel 托管，纯静态、零成本。
 
-写博客的目的不是展示，而是**写下即是思考**——把学到的东西用自己的话讲清楚，讲不清楚说明没真正理解。
+写博客的目的不是展示，而是为了**写下即思考**。
 
 ## 联系我
 
+- 邮箱: llhu13@163.com
 - GitHub: [lfyu778](https://github.com/lfyu778)
 - 想交流？去 [留言板](/guestbook) 留个言吧
 
